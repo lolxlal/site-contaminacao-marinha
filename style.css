@@ -1,0 +1,99 @@
+/* Estilos gerais */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Cor de fundo suave */
+  color: #333; /* Cor do texto */
+  line-height: 1.6;
+}
+
+/* Centraliza todo o conteúdo */
+main {
+  width: 80%;
+  margin: 20px auto; /* Centraliza a área principal */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px; /* Borda arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  background-color: #4b9cd3; /* Cor do cabeçalho */
+  padding: 20px;
+  border-radius: 15px 15px 0 0; /* Bordas arredondadas no topo */
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Seção de introdução */
+.introducao {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menu */
+nav.menu {
+  text-align: center;
+  margin-top: 30px;
+}
+
+nav.menu a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 15px 30px;
+  background-color: #4b9cd3;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+nav.menu a:hover {
+  background-color: #367fa9;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4b9cd3;
+  color: white;
+  border-radius: 0 0 15px 15px; /* Bordas arredondadas no rodapé */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* Estilo para as imagens de todas as páginas */
+img {
+  width: 60%; /* Controla o tamanho das imagens */
+  max-width: 500px;
+  border-radius: 10px; /* Bordas arredondadas nas imagens */
+  display: block; /* Garante que a imagem seja exibida como bloco */
+  margin: 20px auto; /* Centraliza a imagem e adiciona espaçamento */
+}
+/* Centralizar o título "Menu" */
+h2 {
+  text-align: center;  /* Centraliza todos os títulos h2, incluindo o do "Menu" */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Centralizar o título "Menu" */
+h2 {
+  text-align: center;  /* Centraliza todos os títulos h2, incluindo o do "Menu" */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+ display:block;/* Garante que a imagem seja exibida como bloco */
